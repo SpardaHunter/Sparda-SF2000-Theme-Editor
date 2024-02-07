@@ -252,7 +252,7 @@ class ImageProcessorApp:
 
             image_label.grid(row=row, column=col)
 
-            change_button = tk.Button(self.image_frame, text="Cambiar", command=lambda data=image_data: self.change_image(data))
+            change_button = tk.Button(self.image_frame, text="Change", command=lambda data=image_data: self.change_image(data))
             change_button.grid(row=row + 1, column=col)
 
             col += 1
@@ -266,7 +266,7 @@ class ImageProcessorApp:
         # Añadir el botón de descarga debajo de la imagen actual en la cuadrícula
         for widget in self.image_frame.winfo_children():
             if isinstance(widget, tk.Label) and widget.cget("text") == self.paginas[self.pagina_actual][0]["name"]:
-                download_button = tk.Button(self.image_frame, text="Descargar", command=self.download_image)
+                download_button = tk.Button(self.image_frame, text="Download", command=self.download_image)
                 download_button.grid(row=widget.grid_info()["row"] + 2, column=widget.grid_info()["column"])
                 break
 
