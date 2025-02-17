@@ -15,4 +15,4 @@ How it works:
 - In the pop-up window you can view, change or download the individual image, with the "Previous" and "Next" buttons you can change the file.
 
 Additional explanation:
-The program automatically checks if the folder has Foldername.ini or FoldernamX.ini, depending on the file you have, it will load the necessary files to edit the topic.
+The program automatically checks if the folder has Foldername.ini or FoldernamX.ini, depending on the file you have, it will load the necessary files to edit the SF2000 Theme.
